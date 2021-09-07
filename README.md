@@ -191,6 +191,23 @@ console.log( gasum( x.length, x, 1 ) );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/dasum`][@stdlib/blas/base/dasum]: compute the sum of absolute values (L1 norm).
+-   [`@stdlib/blas/base/sasum`][@stdlib/blas/base/sasum]: compute the sum of absolute values (L1 norm).
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -258,9 +275,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
 
+<!-- <related-links> -->
+
 [@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum
 
 [@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum
+
+<!-- </related-links> -->
 
 </section>
 
