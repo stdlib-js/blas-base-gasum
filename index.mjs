@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs";var t=e;var n=e;var i=function(r,e,n){var i,f,s;if(i=0,r<=0||n<=0)return i;if(1===n){if((f=r%6)>0)for(s=0;s<f;s++)i+=t(e[s]);if(r<6)return i;for(s=f;s<r;s+=6)i+=t(e[s])+t(e[s+1])+t(e[s+2])+t(e[s+3])+t(e[s+4])+t(e[s+5]);return i}for(r*=n,s=0;s<r;s+=n)i+=t(e[s]);return i},f=function(r,e,t,i){var f,s,a,o;if(f=0,r<=0)return f;if(s=i,1===t){if((a=r%6)>0)for(o=0;o<a;o++)f+=n(e[s]),s+=t;if(r<6)return f;for(o=a;o<r;o+=6)f+=n(e[s])+n(e[s+1])+n(e[s+2])+n(e[s+3])+n(e[s+4])+n(e[s+5]),s+=6;return f}for(o=0;o<r;o++)f+=n(e[s]),s+=t;return f};r(i,"ndarray",f);var s=i;export{s as default,f as ndarray};
-//# sourceMappingURL=index.mjs.map
