@@ -48,13 +48,13 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
-import gasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@esm/index.mjs';
+import gasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@v0.0.7-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@v0.0.7-esm/index.mjs';
 ```
 
 #### gasum( N, x, stride )
@@ -169,7 +169,7 @@ sum = gasum.ndarray( 3, x, -1, x.length-1 );
 
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import gasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@esm/index.mjs';
+import gasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@v0.0.7-esm/index.mjs';
 
 var rand;
 var sign;
