@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gasum"
-click B href "https://github.com/stdlib-js/blas-base-gasum/tree/main"
-click C href "https://github.com/stdlib-js/blas-base-gasum/tree/production"
-click D href "https://github.com/stdlib-js/blas-base-gasum/tree/esm"
-click E href "https://github.com/stdlib-js/blas-base-gasum/tree/deno"
-click F href "https://github.com/stdlib-js/blas-base-gasum/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gasum"
+%% click B href "https://github.com/stdlib-js/blas-base-gasum/tree/main"
+%% click C href "https://github.com/stdlib-js/blas-base-gasum/tree/production"
+%% click D href "https://github.com/stdlib-js/blas-base-gasum/tree/esm"
+%% click E href "https://github.com/stdlib-js/blas-base-gasum/tree/deno"
+%% click F href "https://github.com/stdlib-js/blas-base-gasum/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gasum
