@@ -289,11 +289,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
 
-<!-- <related-links> -->
-
 [@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum
 
 [@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum
+
+<!-- <related-links> -->
 
 <!-- </related-links> -->
 
