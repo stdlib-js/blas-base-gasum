@@ -63,13 +63,13 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
-import gasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@deno/mod.js';
+import gasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@v0.2.2-deno/mod.js';
 ```
 
 #### gasum( N, x, stride )
@@ -169,7 +169,7 @@ sum = gasum.ndarray( 3, x, -1, x.length-1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import gasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@deno/mod.js';
+import gasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gasum@v0.2.2-deno/mod.js';
 
 var opts = {
     'dtype': 'generic'
