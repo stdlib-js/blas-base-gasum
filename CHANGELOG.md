@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-02-25)
+
+<section class="features">
+
+### Features
+
+-   [`57184e0`](https://github.com/stdlib-js/stdlib/commit/57184e03168cf78b9daeee492995a7ea2670d463) - add accessor array support to `blas/base/gasum` [(#5439)](https://github.com/stdlib-js/stdlib/pull/5439)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`57184e0`](https://github.com/stdlib-js/stdlib/commit/57184e03168cf78b9daeee492995a7ea2670d463) - **feat:** add accessor array support to `blas/base/gasum` [(#5439)](https://github.com/stdlib-js/stdlib/pull/5439) _(by Muhammad Haris)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Muhammad Haris
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)

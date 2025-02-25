@@ -168,6 +168,7 @@ sum = gasum.ndarray( 3, x, -1, x.length-1 );
 
 -   If `N <= 0`, both functions return `0`.
 -   `gasum()` corresponds to the [BLAS][blas] level 1 function [`dasum`][dasum] with the exception that this implementation works with any array type, not just Float64Arrays. Depending on the environment, the typed versions ([`dasum`][@stdlib/blas/base/dasum], [`sasum`][@stdlib/blas/base/sasum], etc.) are likely to be significantly more performant.
+-   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array-base/accessor`][@stdlib/array/base/accessor]).
 
 </section>
 
@@ -299,6 +300,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum
 
 [@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum
+
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
 <!-- <related-links> -->
 
